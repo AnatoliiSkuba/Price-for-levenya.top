@@ -1,0 +1,20 @@
+{
+  "name": "levenyapricenew",
+  "version": "1.0.0",
+  "description": "change csv price",
+  "main": "index.js",
+  "scripts": {
+    "list": "pm2 list"
+  },
+  "author": "Anatolii Skuba",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "csv-parser": "^3.0.0",
+    "fast-xml-parser": "^4.0.7",
+    "neat-csv": "^7.0.0",
+    "node-fetch": "^3.2.3",
+    "papaparse": "^5.3.2",
+    "x2js": "^3.4.3"
+  }
+}
