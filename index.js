@@ -1,4 +1,5 @@
 // pm2 list, pm2 monit, pm2 start index.js --watch, pm2 stop index
+// git status, git branch, git add ., git commit -m "add index.js and clone old files"
 
 const chokidar = require('chokidar');
 const fs = require('fs');
