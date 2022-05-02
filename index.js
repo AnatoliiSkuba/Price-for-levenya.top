@@ -1,5 +1,8 @@
-// pm2 list, pm2 monit, pm2 start index.js --watch, pm2 stop index
-// git status, git branch, git add ., git commit -m "add index.js and clone old files"
+// pm2 list // pm2 monit // pm2 start index.js --watch // pm2 stop index
+// git status // git branch "nameNewBranch" // git checkout "nameNewBranch" // git checkout -b "nameNewBranch"
+// git commit -am "add index.js and clone old files" // git add . // git commit -m "add index.js and clone old files"
+// git push (git push --set-upstream (-u)* origin dev)* // git pull origin
+// git merge "nameBranch what we want to merge" // git branch -d "nameBranch" (for delete on PC) // git push origin --delete "nameBranch" (for delete on GIT)
 
 const chokidar = require('chokidar');
 const fs = require('fs');
